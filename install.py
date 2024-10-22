@@ -12,7 +12,7 @@ if str(choice) =='Y' or str(choice)=='y':
         file.write(cmnd)
     run('chmod +x /usr/bin/aut & chmod +x /usr/share/aut/autoTOR.py')
     print('''\n\ncongratulation auto Tor Ip Changer is installed successfully \nfrom now just type \x1b[6;30;42maut\x1b[0m in terminal ''')
-if str(choice)=='N' or str(choice)=='n':
+elif str(choice)=='N' or str(choice)=='n':
     run('rm -r /usr/share/aut ')
     run('rm /usr/bin/aut ')
     print('[!] now Auto Tor Ip changer  has been removed successfully')
